@@ -28,8 +28,8 @@ document.addEventListener("DOMContentLoaded", function() {
         alert("Stop trading functionality not implemented yet.");
     });
 
-    // Fetch price every 10 seconds
+    // Fetch price every 2 seconds
     setInterval(() => {
         fetchPrice(symbolSelect.value);
-    }, 10000);
+    }, 2000);
 });
